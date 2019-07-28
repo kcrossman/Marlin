@@ -15,7 +15,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
     environment:
-      TEST_PLATFORM: "-e megaatmega2560"
+      TEST_PLATFORM: "-e fysetc_f6_13"
 
     working_directory: ~/Marlin
 
@@ -64,8 +64,8 @@ jobs:
             # Build all sample configurations
             #################################
 
-            echo testing megaatmega2560 targets...
-            export TEST_PLATFORM="-e megaatmega2560"
+            echo testing fysetc_f6_13 targets...
+            export TEST_PLATFORM="-e fysetc_f6_13"
             echo use_example_configs adafruit/ST7565
             use_example_configs adafruit/ST7565
             build_marlin_pio ./ ${TEST_PLATFORM}

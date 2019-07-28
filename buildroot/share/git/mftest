@@ -3,7 +3,7 @@
 # mftest [name] [index]
 #
 # Set configuration options based on a test
-# By default it will do megaatmega2560
+# By default it will do fysetc_f6_13
 # Use 'mftest -' to pick from the list.
 #
 
@@ -28,6 +28,7 @@ case $TESTENV in
      stm) TESTENV='STM32F1' ;;
      t35) TESTENV='teensy35' ;;
   teensy) TESTENV='teensy35' ;;
+      f6) TESTENV='fysetc_f6_13' ;;
        -) ;;
 esac
 

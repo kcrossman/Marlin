@@ -1721,6 +1721,11 @@
 //=============================================================================
 
 //
+// FYSETC TLCD.
+//
+#define FYSTLCD_V1
+
+//
 // RepRapDiscount Smart Controller.
 // http://reprap.org/wiki/RepRapDiscount_Smart_Controller
 //
